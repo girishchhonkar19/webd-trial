@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            font-family: Garuda;
+            font-size: 25pt;
+        }
+    </style>
+
+</head>
+<body>
+<input id="todo"> <button id ="btn">Add </button>
+<br>
+
+<ul id="list">
+    <li>Task one</li>
+
+</ul>
+
+<script>
+
+        let todoBox = document.getElementById("todo")
+
+        let addbtn = document.getElementById('btn');
+        let todoList=document.getElementById('list')
+        addbtn.onclick = function()
+        {
+            let todo= todoBox.value
+            let newTaskListItem = document.createElement("li")
+            newTaskListItem.innerText = todo
+            todoList.appendChild(newTaskListItem)
+        }
+
+
+
+</script>
+</body>
+</html>
