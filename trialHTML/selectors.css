@@ -1,0 +1,10 @@
+ul li ul {
+    color: darkblue;
+    font-size: 20pt;
+}
+ul~ol {
+    font-style: italic;
+}
+ol {
+    color: red;
+}

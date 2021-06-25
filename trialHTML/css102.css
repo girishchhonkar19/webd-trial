@@ -1,0 +1,17 @@
+* {
+    background-color: lime;
+}
+.box{
+    margin: 30px;
+    padding: 40px;
+    border: solid black 4px;
+}
+#div1 {
+    background-color: skyblue;
+}
+#div2 {
+    background-color: lightgray;
+}
+#div3 {
+    background-color: lightpink;
+}

@@ -1,0 +1,19 @@
+* {
+    font-size: 25pt;
+    
+}
+#p1 {
+    font-size: 20pt;
+}
+#p2 {
+        font-family: serif;
+        word-spacing: 10px;
+        letter-spacing: 1pt;
+}
+#p3{
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#p4{
+   font-weight: bold;
+   font-size: 5vh;
+}
